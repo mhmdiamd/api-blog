@@ -18,7 +18,7 @@ API ini saya buat menggunakan monggo DB, jadi sangat disarankan menggunakan Mong
 
 ### Authentikasi
 
-1.  http://localhost:8800/api/v1/auth/register (POST) -> {username, password, email, password}
+1.  http://localhost:8800/api/v1/auth/register (POST) -> {username, name, email, password}
 2.  http://localhost:8800/api/v1/auth/login (POST) -> {username, password}
 3.  http://localhost:8800/api/v1/auth/logout (POST) -> Authorization : Bearer (token)
 4.  http://localhost:8800/api/v1/auth/refresh (POST) -> Headers Authorization : Bearer (token)
@@ -28,7 +28,7 @@ API ini saya buat menggunakan monggo DB, jadi sangat disarankan menggunakan Mong
 1.  http://localhost:8800/api/v1/posts (GET)
 2.  http://localhost:8800/api/v1/posts/:slug (GET) -> Single Post
 3.  http://localhost:8800/api/v1/posts/:slug (PUT)
-4.  http://localhost:8800/api/v1/posts (POSTS) -> Authorization : Bearer (token)
+4.  http://localhost:8800/api/v1/posts (POSTS) -> Authorization : Bearer (token) -> {title, auhtor, categories[String], body}
 5.  http://localhost:8800/api/v1/posts/:postId (DELETE)
 
 ** Filter **
