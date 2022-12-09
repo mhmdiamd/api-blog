@@ -1,4 +1,4 @@
-# api-blog
+# RESTFULL API BLOG MENGGUNAKAN MongoDB
 
 Api ini saya buat untuk belajar membantu proses belajar dan mengetahui path belajar saya dimasa mendatang, saya juga mempersilahakan siapapun jika ingin menggunakan api ini,
 API ini saya buat menggunakan monggo DB, jadi sangat disarankan menggunakan MongoDB baik itu local maupun dengan Cloud Service
