@@ -6,9 +6,9 @@ API ini saya buat menggunakan monggo DB, jadi sangat disarankan menggunakan Mong
 1.  Lakukan installasi package manager terlebih dahulu (npm install / npm i)
 2.  buat file .env
     dan copy code dibawah ini :
-    DB = (your Database)
-    SECRET_KEY = (secret key for access_token)
-    SECRET_KEY_REFRESH = (secret key for refresh_token)
+    - DB = (your Database)
+    - SECRET_KEY = (secret key for access_token)
+    - SECRET_KEY_REFRESH = (secret key for refresh_token)
 3.  lakukan installasi nodemon (npm install nodemon --dev)
 4.  Jalankan "nodemon index" pada directory terminal folder ini
 
